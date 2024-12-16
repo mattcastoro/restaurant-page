@@ -1,6 +1,10 @@
 import "./styles.css";
-import {  } from "./home.js";
-import {  } from "./menu.js";
-import {  } from "./about.js";
+import { showHome, generateHome } from "./home.js";
+import { showMenu } from "./menu.js";
+import { showAbout } from "./about.js";
 
+generateHome();
+showHome();
+showMenu();
+showAbout();
 // this is where the tab switching logic will be written
