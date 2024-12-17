@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         myTabs.forEach(function(tab) {
             tab.addEventListener("click", function(e) {
 
-                const content = document.querySelector("#content");
+                const content = document.querySelector("#main");
                 content.textContent = "";
 
                 if (this.id === "tabHome") {
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 } else if (this.id === "tabAbout") {
                     generateAbout();
                 }
-                
+
             });
         });
 });

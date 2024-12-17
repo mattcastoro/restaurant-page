@@ -1,5 +1,5 @@
 function generateAbout() {
-    const aboutContent = document.querySelector("#content");
+    const aboutContent = document.querySelector("#main");
     const title = document.createElement("div");
     aboutContent.appendChild(title);
     title.textContent = "About";
