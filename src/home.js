@@ -3,33 +3,35 @@ function generateHome() {
 
     const titleHome = document.createElement("div");
     contentHome.appendChild(titleHome);
-    titleHome.textContent = "Restaurant Title";
+    titleHome.textContent = "Rafa's Wrap It's";
     titleHome.classList.add("title");
 
     const contentBackground = document.createElement("div");
     contentHome.appendChild(contentBackground);
+    contentBackground.classList.add("content");
 
     const headingBackground = document.createElement("div");
     contentBackground.appendChild(headingBackground);
-    headingBackground.textContent = "Background Heading";
+    headingBackground.textContent = "Our Specialty";
     headingBackground.classList.add("heading");
 
     const bodyBackground = document.createElement("div");
     contentBackground.appendChild(bodyBackground);
-    bodyBackground.textContent = "Background Body";
+    bodyBackground.textContent = "We specialize in wraps.  Any sandwich you can think of, we can wrap it.  Peanut butter and jelly, wrap it. Sardines and pickles, wrap it.  Whatever you desire, we'll wrap it for you.  It's what we do!!!";
     bodyBackground.classList.add("body")
 
     const contentHoursOfOp = document.createElement("div");
     contentHome.appendChild(contentHoursOfOp);
+    contentHoursOfOp.classList.add("content");
 
     const headingHoursOfOp = document.createElement("div");
     contentHoursOfOp.appendChild(headingHoursOfOp);
-    headingHoursOfOp.textContent = "Hours of Operation Heading";
+    headingHoursOfOp.textContent = "Hours of Operation";
     headingHoursOfOp.classList.add("heading");
 
     const listHoursOfOp = document.createElement("ul");
     contentHoursOfOp.appendChild(listHoursOfOp);
-    contentHoursOfOp.classList.add("listContainer");
+    listHoursOfOp.classList.add("listContainer");
 
     const monday = document.createElement("li");
     listHoursOfOp.appendChild(monday);
@@ -62,15 +64,16 @@ function generateHome() {
 
     const contentLocation = document.createElement("div");
     contentHome.appendChild(contentLocation);
+    contentLocation.classList.add("content");
 
     const headingLocation = document.createElement("div");
-    contentLocation.appendChild(headingLocation);
-    headingLocation.textContent = "Location Heading";
+    contentLocation.appendChild(headingLocation); 
+    headingLocation.textContent = "Location";
     headingLocation.classList.add("heading");
 
     const bodyLocation = document.createElement("div");
     contentLocation.appendChild(bodyLocation);
-    bodyLocation.textContent = "Location Body";
+    bodyLocation.textContent = "123 Any Road, Anywhere, CO";
     bodyLocation.classList.add("body");
 }
 
