@@ -1,12 +1,3 @@
-function showHome() {
-    const btn = document.querySelector("#btnHome");
-    btn.addEventListener("click", () => {
-        const homeContent = document.querySelector("#content");
-        homeContent.textContent = "";
-        generateHome();
-    });
-}
-
 function generateHome() {
     const homeContent = document.querySelector("#content");
     const title = document.createElement("div");
@@ -18,4 +9,4 @@ function generateHome() {
     background.textContent = "Background";
 }
 
-export { showHome, generateHome };
+export { generateHome };

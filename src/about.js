@@ -1,12 +1,3 @@
-function showAbout() {
-    const btn = document.querySelector("#btnAbout");
-    btn.addEventListener("click", () => {
-        const aboutContent = document.querySelector("#content");
-        aboutContent.textContent = "";
-        generateAbout();
-    });
-}
-
 function generateAbout() {
     const aboutContent = document.querySelector("#content");
     const title = document.createElement("div");
@@ -18,4 +9,4 @@ function generateAbout() {
     funny_story.textContent = "Funny Story";
 }
 
-export { showAbout, generateAbout };
+export { generateAbout };

@@ -1,12 +1,3 @@
-function showMenu() {
-    const btn = document.querySelector("#btnMenu");
-    btn.addEventListener("click", () => {
-        const menuContent = document.querySelector("#content");
-        menuContent.textContent = "";
-        generateMenu();
-    });
-}
-
 function generateMenu() {
     const menuContent = document.querySelector("#content");
     const title = document.createElement("div");
@@ -18,4 +9,4 @@ function generateMenu() {
     beverages.textContent = "Beverages";
 }
 
-export { showMenu, generateMenu };
+export { generateMenu };
