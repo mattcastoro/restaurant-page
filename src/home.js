@@ -3,7 +3,7 @@ function generateHome() {
 
     const titleHome = document.createElement("div");
     contentHome.appendChild(titleHome);
-    titleHome.textContent = "Rafa's Wrap It's";
+    titleHome.textContent = "Rafa's Wraps";
     titleHome.classList.add("title");
 
     const contentBackground = document.createElement("div");
