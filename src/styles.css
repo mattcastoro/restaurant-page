@@ -21,11 +21,30 @@ body {
 }
 
 nav {
-
+    overflow: hidden;
+    background-color: #559ca1;
+    border-bottom: 5px solid #aad6dc;
+    /* border-radius: 10px 0 10px 0; */
 }
 
-.tab {
-    overflow: hidden;
+nav .tab {
+    font-size: 1em;
+    color: #63475d;
+    background-color: inherit;
+    float: left;
+    border: none;
+    border-radius: 25px 25px 0 0;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+}
+
+nav button:hover {
+    background-color: #86C5CD;
+}
+
+nav button.active {
+    background-color: #aad6dc;
 }
 
 #main {
