@@ -17,6 +17,7 @@ body {
     justify-items: center;
     font-size: 25px;
     color: #f8cfaa;
+    margin: 50px;
 
 }
 
@@ -92,3 +93,7 @@ nav button.active {
     list-style-type: none;
 }
 
+.img {
+    width: 500px;
+    border-radius: 50px;
+}

@@ -1,3 +1,5 @@
+import heroImage from "./images/wraps.jpg";
+
 function generateHome() {
     const contentHome = document.querySelector("#main");
 
@@ -5,6 +7,11 @@ function generateHome() {
     contentHome.appendChild(titleHome);
     titleHome.textContent = "Rafa's Wraps";
     titleHome.classList.add("title");
+
+    const image = document.createElement("img");
+    image.src = heroImage;
+    contentHome.appendChild(image);
+    image.classList.add("img");
 
     const contentBackground = document.createElement("div");
     contentHome.appendChild(contentBackground);
